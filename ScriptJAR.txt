@@ -1,0 +1,27 @@
+load testPNG.png test
+brighten 40 test testBrightened
+save testBrightened testBrightPNG.png
+darken 40 test testDarkened
+save testDarkened testDarkPNG.png
+horizontal-flip test testHorizontalFlipped
+save testHorizontalFlipped testHorizontalFlippedPNG.png
+vertical-flip test testVerticalFlipped
+save testVerticalFlipped testVerticalFlippedPNG.png
+greyscale-red test testGreyscaleRed
+save testGreyscaleRed testGreyscaleRedPNG.png
+greyscale-green test testGreyscaleGreen
+save testGreyscaleGreen testGreyscaleGreenPNG.png
+greyscale-blue test testGreyscaleBlue
+save testGreyscaleBlue testGreyscaleBluePNG.png
+greyscale-value test testGreyscaleValue
+save testGreyscaleValue testGreyscaleValuePNG.png
+greyscale-intensity test testGreyscaleIntensity
+save testGreyscaleIntensity testGreyscaleIntensityPNG.png
+greyscale-luma test testGreyscaleLuma
+save testGreyscaleLuma testGreyscaleLumaPNG.png
+blur test testBlurred
+save testBlurred testBlurredPNG.png
+sharpen test testSharpened
+save testSharpened testSharpenedPNG.png
+greyscale testSharpened testSharpenedGreyscale
+save testSharpenedGreyscale testSharpenedGreyscalePNG.png
